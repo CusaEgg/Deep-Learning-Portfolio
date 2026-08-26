@@ -21,7 +21,7 @@ Cada proyecto no solo aborda la implementación del código, sino que incluye un
 ### 3. Optimización de Clasificación Jerárquica en Computer Vision
 * **Directorio:** [`03_CIFAR100_Hierarchical_Classification`](./03_CIFAR100_Hierarchical_Classification)
 * **Descripción:** Sistema de clasificación entrenado sobre el dataset CIFAR100, aprovechando su etiquetado estructurado en 100 clases finas y 20 superclases gruesas.
-* **Hitos técnicos:** Análisis comparativo exhaustivo entre un modelo de clasificación base y un modelo asistido por probabilidad condicionada. El estudio profundiza en la formulación matemática a través de la regla de la cadena ($P(A) = P(A|B) \times P(B)$) y documenta extensamente el fenómeno de la propagación de errores e inestabilidad numérica entre la red de superclases y la red de clases finas.
+* **Hitos técnicos:** Análisis comparativo exhaustivo entre un modelo de clasificación base y un modelo asistido por probabilidad condicionada. El estudio profundiza en la formulación matemática a través de la regla de la cadena y documenta extensamente el fenómeno de la propagación de errores e inestabilidad numérica entre la red de superclases y la red de clases finas.
 
 ## 🛠️ Tecnologías y Herramientas
 * **Lenguaje:** Python
